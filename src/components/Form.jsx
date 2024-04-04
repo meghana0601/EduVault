@@ -345,7 +345,7 @@ class StudentInformation extends React.Component {
                   </td>
                 </tr>
                 <tr>
-                  <td>Attendance After Third List</td>
+                  <td>Attendance After Third Defaulters</td>
                   <td>
                     <input type="text" name="sem1"  />
                   </td>
@@ -372,7 +372,7 @@ class StudentInformation extends React.Component {
                   </td>
                 </tr>
                 <tr>
-                  <td>Attendance After Final List</td>
+                  <td>Attendance After Final Defaulters</td>
                   <td>
                     <input type="text" name="sem1"/>
                   </td>
@@ -427,7 +427,7 @@ class StudentInformation extends React.Component {
                     <input type="date" name="date" />
                   </td>
                   <td>
-                    <input type="text" name="award" />
+                    <input type="text" name="award[]" />
                   </td>
                   <td>
                     <input
@@ -442,7 +442,7 @@ class StudentInformation extends React.Component {
             <br />
 
             <label>Any other:</label>
-            <input type="text" name="anyOther" />
+            <input type="text" name="anyOther" /> 
             <br />
             <br />
 
