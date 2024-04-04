@@ -21,7 +21,7 @@ class StudentInformation extends React.Component {
           <span style={{ margin: "0 10px" }}></span>
           <label>
             UID NO:
-            <input type="text" name="uid" />
+            <input type="text" name="uid" maxLength='10'/>
           </label>
           <br /> <br />
           <label>
@@ -62,13 +62,13 @@ class StudentInformation extends React.Component {
           <br />
           <label>
             Phone no of Father:
-            <input type="text" name="fatherPhone" />
+            <input type="tel" name="fatherPhone" maxLength='10'/>
             <span style={{ margin: "0 10px" }}></span>
             Mother:
-            <input type="text" name="motherPhone" />
+            <input type="tel" name="motherPhone" maxLength='10'/>
             <span style={{ margin: "0 10px" }}></span>
             Student:
-            <input type="text" name="studentPhone" />
+            <input type="tel" name="studentPhone" maxLength='10' />
           </label>
           <br />
           <br />
@@ -115,7 +115,7 @@ class StudentInformation extends React.Component {
               <tr>
                 <td>CGPA</td>
                 <td>
-                  <input type="text" name="sem1CGPA" />
+                  <input type="text" name="sem1CGPA"/>
                 </td>
                 <td>
                   <input type="text" name="sem2CGPA" />
@@ -124,7 +124,7 @@ class StudentInformation extends React.Component {
                   <input type="text" name="sem3CGPA" />
                 </td>
                 <td>
-                  <input type="text" name="sem4CGPA" />
+                  <input type="text" name="sem4CGPA"/>
                 </td>
                 <td>
                   <input type="text" name="sem5CGPA" />
@@ -136,7 +136,7 @@ class StudentInformation extends React.Component {
                   <input type="text" name="sem7CGPA" />
                 </td>
                 <td>
-                  <input type="text" name="sem8CGPA" />
+                  <input type="text" name="sem8CGPA"/>
                 </td>
               </tr>
             </tbody>
@@ -293,16 +293,16 @@ class StudentInformation extends React.Component {
                 <tr>
                   <td>Attendance After First Defaulters</td>
                   <td>
-                    <input type="text" name="sem1" />
+                    <input type="text" name="sem1"/>
+                  </td>
+                  <td>
+                    <input type="text" name="sem"/>
                   </td>
                   <td>
                     <input type="text" name="sem" />
                   </td>
                   <td>
-                    <input type="text" name="sem" />
-                  </td>
-                  <td>
-                    <input type="text" name="sem" />
+                    <input type="text" name="sem"/>
                   </td>
                   <td>
                     <input type="text" name="sem5" />
@@ -311,28 +311,28 @@ class StudentInformation extends React.Component {
                     <input type="text" name="sem6" />
                   </td>
                   <td>
-                    <input type="text" name="sem7" />
+                    <input type="text" name="sem7"/>
                   </td>
                   <td>
-                    <input type="text" name="sem8" />
+                    <input type="text" name="sem8"  />
                   </td>
                 </tr>
                 <tr>
                   <td>Attendance After Second Defaulters</td>
                   <td>
-                    <input type="text" name="sem1" />
+                    <input type="text" name="sem1"/>
                   </td>
                   <td>
-                    <input type="text" name="sem2" />
+                    <input type="text" name="sem2"/>
                   </td>
                   <td>
-                    <input type="text" name="sem3" />
+                    <input type="text" name="sem3"/>
                   </td>
                   <td>
-                    <input type="text" name="sem4" />
+                    <input type="text" name="sem4"/>
                   </td>
                   <td>
-                    <input type="text" name="sem5" />
+                    <input type="text" name="sem5"/>
                   </td>
                   <td>
                     <input type="text" name="sem6" />
@@ -341,19 +341,19 @@ class StudentInformation extends React.Component {
                     <input type="text" name="sem7" />
                   </td>
                   <td>
-                    <input type="text" name="sem8" />
+                    <input type="text" name="sem8"/>
                   </td>
                 </tr>
                 <tr>
                   <td>Attendance After Third List</td>
                   <td>
-                    <input type="text" name="sem1" />
+                    <input type="text" name="sem1"  />
                   </td>
                   <td>
-                    <input type="text" name="sem2" />
+                    <input type="text" name="sem2"  />
                   </td>
                   <td>
-                    <input type="text" name="sem3" />
+                    <input type="text" name="sem3"  />
                   </td>
                   <td>
                     <input type="text" name="sem4" />
@@ -372,18 +372,18 @@ class StudentInformation extends React.Component {
                   </td>
                 </tr>
                 <tr>
-                  <td>Attendance After Fourth List</td>
+                  <td>Attendance After Final List</td>
                   <td>
-                    <input type="text" name="sem1" />
+                    <input type="text" name="sem1"/>
                   </td>
                   <td>
-                    <input type="text" name="sem2" />
+                    <input type="text" name="sem2"/>
                   </td>
                   <td>
                     <input type="text" name="sem3" />
                   </td>
                   <td>
-                    <input type="text" name="sem4" />
+                    <input type="text" name="sem4"/>
                   </td>
                   <td>
                     <input type="text" name="sem5" />
@@ -392,7 +392,7 @@ class StudentInformation extends React.Component {
                     <input type="text" name="sem6" />
                   </td>
                   <td>
-                    <input type="text" name="sem7" />
+                    <input type="text" name="sem7"  />
                   </td>
                   <td>
                     <input type="text" name="sem8" />
@@ -424,7 +424,7 @@ class StudentInformation extends React.Component {
               <tbody>
                 <tr>
                   <td>
-                    <input type="text" name="date" />
+                    <input type="date" name="date" />
                   </td>
                   <td>
                     <input type="text" name="award" />
